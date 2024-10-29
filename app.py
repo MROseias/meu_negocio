@@ -46,15 +46,16 @@ app.layout = html.Div(children=[
 
                 dbc.Col([
                     dbc.Card([
-                        html.H3("Lucro", style={"font-size": "20px"})
+                        html.H3("Gastos", style={"font-size": "20px"})
                     ], style={"height": "10vh", "margin": "20px", "padding": "10px"}, className="w-100"),
                 ], sm=2, className="d-flex justify-content-center"),
 
                 dbc.Col([
                     dbc.Card([
-                        html.H3("Gastos", style={"font-size": "20px"})
+                        html.H3("Lucro", style={"font-size": "20px"})
                     ], style={"height": "10vh", "margin": "20px", "padding": "10px"}, className="w-100"),
                 ], sm=2, className="d-flex justify-content-center"),
+
 
                 dbc.Col([
                     dbc.Card([
